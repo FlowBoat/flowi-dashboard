@@ -1,10 +1,10 @@
-import { AngularFormsAppPage } from './app.po';
+import { MaterialDashboardAngularPage } from './app.po';
 
-describe('angular-forms-app App', function() {
-  let page: AngularFormsAppPage;
+describe('material-dashboard-angular App', () => {
+  let page: MaterialDashboardAngularPage;
 
   beforeEach(() => {
-    page = new AngularFormsAppPage();
+    page = new MaterialDashboardAngularPage();
   });
 
   it('should display message saying app works', () => {
